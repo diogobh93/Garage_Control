@@ -1,0 +1,44 @@
+name: Garage_Control
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_modular: any
+  mobx: any
+  flutter_mobx: any
+
+#  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen:
+  build_runner:
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets\fonts\Poppins-Light.ttf
+        - asset: assets\fonts\Poppins-Medium.ttf
+        - asset: assets\fonts\Poppins-Regular.ttf
+ 
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

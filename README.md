@@ -1,16 +1,28 @@
 # Garage_Control
 
-A new Flutter project.
+Aplicativo feito em Flutter para o controle de garagem de caminhões.
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/37723303/113522450-e4aaa400-9576-11eb-8bf9-ea701d8b0cb6.jpg)
 
-This project is a starting point for a Flutter application.
+Foi utilizado estrutura **Modular** para lidar com as injeções de dependências e rotas dinâmica, **Mobx** para o gerenciamento de estado da aplicação e também criado **testes unitários** simples nas principais funções do controller.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Adicionado no pubspec.yaml**
+```bash
+dependencies:
+  flutter_modular: any
+  flutter_mobx: any
+  mobx: any
+```
+```bash
+dev_dependencies:
+  mobx_codegen:
+  build_runner:
+```
+**Link dos packages utilizados**
+- [x] https://pub.dev/packages/flutter_modular
+- [x] https://pub.dev/packages/mobx
+- [x] https://pub.dev/packages/mobx_codegen
+- [x] https://pub.dev/packages/build_runner
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>#Flutter #Biometric

@@ -25,4 +25,4 @@ dev_dependencies:
 - [x] https://pub.dev/packages/mobx_codegen
 - [x] https://pub.dev/packages/build_runner
 
->#Flutter #Biometric
+>#Flutter
